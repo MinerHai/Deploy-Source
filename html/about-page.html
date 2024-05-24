@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="../css/template.css">
         <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/about-page.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <title>ABOUT</title>
     </head>
     <body>
@@ -23,9 +26,9 @@
                         <div style="margin-right:10px;"><img src="../images/ENG.png" alt="ENG"></div>
                         <div style="margin-right:20px;"><img src="../images/USD.png" alt="USD"></div>
                         |
-                        <a href="#">Sign In </a>
+                        <a href="login.html">Sign In </a>
                         /
-                        <a href="#">Sign Up </a>
+                        <a href="signin.html">Sign Up </a>
                     </div>
                     
                 </div>
@@ -33,13 +36,22 @@
                 <hr style="color:#A35DFE; opacity: 0.3;"> 
                 <div class="content-wrapper" style="margin-top: 15px;">
                         <div class="middle">
-                            <div id="logo"><a href="template.html"><img src="../images/LogoLogo.png" alt="" style="max-width: 100%;  height: auto;"></a></div>
+                            <div id="logo"><a href="homepage.html"><img src="../images/LogoLogo.png" alt="" style="max-width: 100%;  height: auto;"></a></div>
                             <div id="search-bar">
                                 <input type="text" placeholder="Search...">
                                 <button type="submit">Search</button>
                             </div>
                             <div class="icon-call-now">
-                                <div class="call-phone-icon"><img src="../images/shop-cart-icon.png" alt=""></div>
+                                <div><img src="../images/product-icon/heart-white.png" alt=""></div>
+                                <div><img src="../images/product-icon/Devider.png" alt=""></div>
+                                <a href="../html/cart.html" class="cart-shop">
+                                    <img src="../images/product-icon/cart-bag-black.png" alt="">
+                                    <div class="product-cnt"><span id="count-sp">0</span></div>
+                                </a>
+                                <div class="text">
+                                    <p>Shopping cart:</p>
+                                    <p style="font-size: 14px;">$<span class="prices" id="prices">57.00</span></p>
+                                </div>
                             </div>
                             
                         </div>
@@ -67,12 +79,12 @@
                         </div>
                     </div>
                     <div class="nav-link">
-                        <a href="#">Home</a>
-                        <a href="#">Shop </a>
+                        <a href="homepage.html">Home</a>
+                        <a href="products.html">Shop </a>
                         <a href="#">Pages </a>
-                        <a href="#">Blog </a>
+                        <a href="blog.html">Blog </a>
                         <a href="../html/about-page.html">About Us </a>
-                        <a href="#">Contact Us </a>
+                        <a href="../html/contact.html">Contact Us </a>
                         <div class="nav-link-account">
                             <img src="../images/Call-Now.png" alt="">
                         </div>
@@ -80,47 +92,50 @@
                 </div>
             </div>
         </header>
-        
-            <div class="content-wrapper">
-                <div class="about-content">
-                    <div class="short-banner">
-                        <div class="short-banner-text" id="banner-text">
-                                <h1>100% Trusted Organic Food Store</h1>
-                                <p>Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet ut tempor ac, cursus vitae eros. Cras quis ultricies elit. Proin ac lectus arcu. Maecenas aliquet vel tellus at accumsan. Donec a eros non massa vulputate ornare. Vivamus ornare commodo ante, at commodo felis congue vitae.
-                                </p>
-                                
-                        </div>
-                        <div class="short-banner-img">
-                                <img src="../images/ongchucachua.jpg" alt="">
-                        </div>
-                    </div>
+            
+    <div class="content-wrapper">
+        <div class="about-content">
+            <div class="fisrt-banner">
+                <div class="fisrt-banner-text" id="banner-text">
+                    <h1 style="font-weight: 650">100% Trusted  Organic Food Store</h1>
+                   <p style="font-size: 14px;font-weight: 300;font-family:poppins">Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet <br>ut tempor ac, cursus vitae eros. Cras quis ultricies elit. Proin ac <br>lectus arcu. Maecenas aliquet vel tellus at accumsan. Donec a  <br>eros non massa vulputate ornare. Vivamus ornare commodo <br> ante, at commodo felis congue vitae.
+                   </p>
+                </div>
+                 <div class="fisrt-banner-img">
+                        <img src="../images/about-icon/ongchucachua.jpg" alt="">
                 </div>
             </div>
-            <div class="long-banner">
-                <div class="long-banner-bg">
-                    <img src="../images/banner-about-2.png" alt="">
-                </div>
-                <div class="long-banner-content">
-                    <div class="text-content" id="banner-text">
-                        <h1>100% Trusted Organic Food Store</h1>
-                        <p>Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus neque. Duis non diam eget est luctus tincidunt a a mi. Nulla eu eros consequat tortor tincidunt feugiat.</p>
-                    </div>
-                    <div class="feature-content">
-                        <div class="feature-bar"><div class="icons">
-                            <div class="img"><img src="../images/leaf-2.png" alt=""></div></div>
-                            <div class="feature-text" id ="feature-text">
-                                <h1>100% Organic food</h1>
-                                <p>100% healthy & Fresh food.</p>
-                            </div>
-                        </div>
+        </div>
+    </div>
 
-                        <div class="feature-bar"><div class="icons">
-                            <div class="img"><img src="../images/headphones.png" alt=""></div></div>
-                            <div class="feature-text" id ="feature-text">
-                                <h1>Great Support 24/7</h1>
-                                <p>Instant access to Contact</p>
-                            </div>
+    <div class="long-banner"> 
+        <div class="long-banner-bg">
+            <img src="../images/about-icon/banner-about-2.png" alt="">
+            
+        </div>
+        <div class="long-banner-content">
+            <div class="text-content" id="banner-text">
+                <h1 style="font-weight: 700">100% Trusted <br> Organic  Food Store</h1>
+                <p style="font-weight: 300;font-size: 13px;">Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et<br> rhoncus neque. Duis non diam eget est luctus tincidunt a a mi. Nulla eu <br> eros consequat tortor tincidunt feugiat.</p>
+            </div>
+            <div class="feature-content">
+                <div class="feature-bar">
+                    <div class="icons">
+                       <div class="img"><img src="../images/leaf-2.png" alt=""></div>
+                    </div>
+                        <div class="feature-text" id ="feature-text">
+                            <h1>100% Organic food</h1>
+                            <p>100% healthy & Fresh food.</p>
                         </div>
+                </div>
+
+                <div class="feature-bar"><div class="icons">
+                    <div class="img"><img src="../images/headphones.png" alt=""></div></div>
+                        <div class="feature-text" id ="feature-text">
+                            <h1>Great Support 24/7</h1>
+                            <p>Instant access to Contact</p>
+                        </div>
+                </div>
 
                         <div class="feature-bar"><div class="icons">
                             <div class="img"><img src="../images/stars-1.png" alt=""></div></div>
@@ -155,126 +170,313 @@
                         </div>
                         
                     </div>
+                    
                 </div>
-            </div>
-            
-            <div class="content-wrapper">
-                <div class="about-content">
-                    <div class="short-banner">
-                        <div class="short-banner-text" id="banner-text">
-                                <h1>We Delivered, You Enjoy Your Order.</h1>
-                                <p>Ut suscipit egestas suscipit. Sed posuere pellentesque nunc, ultrices consectetur velit dapibus eu. Mauris sollicitudin dignissim diam, ac mattis eros accumsan rhoncus. Curabitur auctor bibendum nunc eget elementum.                                </p>
-                                <div class="short-banner-bar-text">
-                                    <div class="icon"><img src="../images/tick-icon.png" alt=""></div>
-                                    <p>Sed in metus pellentesque.</p>
-                                </div>
-                                <div class="short-banner-bar-text">
-                                    <div class="icon"><img src="../images/tick-icon.png" alt=""></div>
-                                    <p>Fusce et ex commodo, aliquam nulla efficitur, tempus lorem.</p>
-                                </div>
-                                <div class="short-banner-bar-text">
-                                    <div class="icon"><img src="../images/tick-icon.png" alt=""></div>
-                                    <p>Maecenas ut nunc fringilla erat varius.</p>
-                                </div>
+                
+    </div>
+
+    <div class="content-wrapper">
+        <div class="banner_about">
+            <div class="three-banner">
+                <div class="banner_three_about_conttent">
+                    <div class="about_conttent" id="about_banner_contten">
+                        <h1>We Delivered, You Enjoy Your Order.</h1>
+                        <p>Ut suscipit egestas suscipit. Sed posuere pellentesque nunc, ultrices consectetur velit dapibus eu. Mauris sollicitudin dignissim diam, ac mattis eros accumsan rhoncus. Curabitur auctor bibendum nunc eget elementum.</p>
+                    </div>
+                    <div class="tick_about">
+                        <div class="tick">
+                            <div class="icon_tick"><img src="../images/about-icon/tick_about.svg" alt=""></div>
+                            <div class="icon_text"> Sed in metus pellentesque.</div>
                         </div>
-                        <div class="short-banner-img" >
-                                <img src="../images/banner3-about.png" alt="" id="img-2">
+                        <div class="tick">
+                            <div class="icon_tick"><img src="../images/about-icon/tick_about.svg" alt=""></div>
+                            <div class="icon_text ">Fusce et ex commodo, aliquam nulla efficitur, tempus lorem.</div>
+                        </div>
+                        <div class="tick">
+                            <div class="icon_tick"><img src="../images/about-icon/tick_about.svg" alt=""></div>
+                            <div class="icon_text">Maecenas ut nunc fringilla erat varius.</div>
+                        </div>
+
+                    </div>
+                    <div class="button_about">
+                        <div class="button_text"><p>Shop Now</p></div>
+                        <div class="button_icon">
+                            <img src="../images/about-icon/icon_about.svg" alt="">
                         </div>
                     </div>
-                </div>
-            </div>
-        <footer>
-                <div class="footer-search">
-                    <div class="big-sub">
-                        <div class="sub">
-                            <div class="sub-title">
-                                <div><h1 style="font-weight: bold;">Subcribe our Newsletter</h1></div>
-                                <div><p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna</p></div>
-                            </div>
-                            <div class="sub-button">
-                                <div class="btn-sub">
-                                    <input type="text" class="input" placeholder="Your email address">
-                                    <input type="submit" value="subcribse" class="btnsub">
-                                </div>
-                                <div class="sub-icon">
-                                    <div>
-                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                    </div>
-                                    <div>
-                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                    </div>
-                                    <div>
-                                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                                    </div>
-                                    <div>
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               </div>
         
-                <div class="big-footer">
-                    <div class="footer">
-                        <div class="foooter-nav1">
-                            <div class="footer-title">
-                                <div class="icon-footer"><img src="../images/Group (3).png" alt=""></div>
-                                <div class="title-footer"><h1 style="font-weight: bold;">Ecobazar</h1></div>
-                            </div>
-                            <div class="content-footer"><p>Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p></div>
-                            <div class="footer-phone">
-                                <div><p>(219) 555-0114</p></div>
-                                <div><p style="color: #999999;">or</p></div>
-                                <div><p>Proxy@gmail.com</p></div>
-                            </div>
-                        </div>
-                        <div class="footer-nav21">
-                            <div class="footer-nav2">
-                                <div><p><b>My Account</b></p><br>
-                                <a href=""><p>My Account</p></a><br>
-                                <a href=""><p>Order History</p></a><br>
-                                <a href=""><p>Shoping Cart</p></a><br>
-                                <a href=""><p>Wishlist</p></a><br>
+                <div class="three_banner_img">
+                    <div><img src="../images/about-icon/chuaodo.png " alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="content-wrapper_1">
+        <div class="about_team_banner">
+            <div class="team_banner">
+                <div class="content_text" id="content_text_aweson">
+                    <h1>Our Awesome Team</h1>
+                    <p>Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus <br> neque. Duis non diam eget est luctus tincidunt a a mi.</p>
+                </div>
+                <div class="team_member">
+                    <div class="team_item"> <img src="../images/about-icon/item.svg" alt=""></div>
+                     <div class="member_information">
+                            <div class="team_member_conttent_1">
+                                <div class="team_img"><img src="../images/about-icon/team1.png" alt="">
+                                </div>
+                                <div class="team_infor" id="infor">
+                                    <h1>Jenny Wilson</h1>
+                                    <p>Ceo & Founder</p>
+                                </div>
+                                <div class="icon_member">
+                                    <div class="icon_social"><img src="../images/about-icon/facebook .svg" alt=""> </div>
+                                    <div class="icon_social"><img src="../images/about-icon/twitter .svg" alt=""> </div>
+                                    <div class="icon_social"><img src="../images/about-icon/pinterest 1.svg" alt=""></div>
+                                    <div class="icon_social"> <img src="../images/about-icon/instagram 1.svg" alt=""></div>
                                 </div>
                             </div>
-                            <div class="footer-nav2">
-                                <div><p><b>Helps</b></p><br>
-                                <a href=""><p>Contacts</p></a><br>
-                                <a href=""><p>Faqs</p></a><br>
-                                <a href=""><p>Terms & Condition</p></a><br>
-                                <a href=""><p>Privacy Policy</p></a><br>
+                             <div class="team_member_conttent">
+                                 <div class="team_img"><img src="../images/about-icon/team2.png" alt=""></div>
+                                <div class="team_infor" id="infor">
+                                    <h1>Jane Cooper</h1>
+                                    <p>Worker</p>
                                 </div>
-                            </div>
-                            <div class="footer-nav2">
-                                <div><p><b>Proxy</b></p><br>
-                                <a href=""><p>About</p></a><br>
-                                <a href=""><p>Shop</p></a><br>
-                                <a href=""><p>Product</p></a><br>
-                                <a href=""><p>Track Order</p></a><br>
-                                </div>
-                            </div>
-                            <div class="footer-nav2">
-                                <div><p><b>Categories</b></p><br>
-                                <a href=""><p>Fruits & Vegetables</p></a><br>
-                                <a href=""><p>Meat & Fish</p></a><br>
-                                <a href=""><p>Bread & Bakery</p></a><br>
-                                <a href=""><p>Beauty & Health</p></a><br>
-                                </div>
-                            </div>
+                             </div>
+                    
+                    <div class="team_member_conttent">
+                        <div class="team_img"><img src="../images/about-icon/team3.png" alt=""></div>
+                        <div class="team_infor" id="infor">
+                            <h1>Cody Fisher</h1>
+                            <p>Security Guard</p>
                         </div>
                     </div>
-                    <hr style="color:#A35DFE; opacity: 0.3;"> 
-                    <div class="under-footer">
-                        <div class="under-footer-content"><p style="color: gray;">Ecobazar eCommerce © 2021. All Rights Reserved</p></div>
-                        <div class="under-icon">
-                            <div><i class="fa-brands fa-apple-pay "></i></div>
-                            <div><i class="fa-brands fa-cc-visa"></i></div>
-                            <div><i class="fa-brands fa-cc-discover" ></i></div>
-                            <div><i class="fa-brands fa-cc-mastercard"></i></div>
+                    <div class="team_member_conttent">
+                        <div class="team_img"><img src="../images/about-icon/team5.png" alt=""></div>
+                        <div class="team_infor" id="infor">
+                            <h1>Robert Fox</h1>
+                            <p>Senior Farmer Manager</p>
                         </div>
                     </div>
                 </div>
-         </footer>
+                    <div class="team_item"> <img src="../images/about-icon/muiten.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<div class="body_p5">
+    <div class="bp_p5">
+        <div class="content_p5">
+            <div class="head_conttent">
+                <h1>Client Testimonail</h1>
+            </div>
+            <div class="arow_items_s">
+               <div class="arrow">
+                    <img  class="arrow_items" src="../images/about-icon/muitentrai.svg" alt="">
+                </div>
+                 <div class="arrow">
+                    <img  class="arrow_items" style="transform:rotateY(180deg)" src="../images/about-icon/muitentrai.svg" alt=""> 
+                </div>
+            </div>
+        </div>
+    
+
+    <div class="clients">
+        <div class="client_box">
+              <img src="../images/about-icon/ngoacnhon.svg" alt="">
+              <div class="client_vote">
+                   <p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
+              </div>
+              <div class="client_info">
+                  <div class="client_avatar">
+                       <img src="../images/about-icon/robert_fox.svg" alt="">
+                  </div>
+                  <div class="client_name">
+                       <h3 class="name"> Robert Fox <br><span class="cus">Customer</span></h3>
+                  </div>
+                  <div class="star">
+                       <div><img src="../images/about-icon/Star 6.svg" alt=""></div>
+                       <div><img src="../images/about-icon/Star 6.svg" alt=""></div>
+                       <div><img src="../images/about-icon/Star 6.svg" alt=""></div>
+                       <div><img src="../images/about-icon/Star 6.svg" alt=""></div>
+                       <div><img src="../images/about-icon/Star 6.svg" alt=""></div>
+                  </div>
+              </div>
+        </div>
+        <div class="client_box">
+            <img src="../images/about-icon/ngoacnhon.svg" alt="">
+            <div class="client_vote">
+                <p style="font-weight: 400;">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
+            </div>
+            <div class="client_info">
+                <div class="client_avatar">
+                     <img src="../images/about-icon/dianne_rusell.svg" alt="">
+                </div>
+                <div class="client_name" >
+                     <h3 class="name"> Dianne Russell   <br>  <span class="cus">Customer</span></h3>
+                    
+                </div>
+                <div class="star">
+                     <img src="../images/about-icon/Star 6.svg" alt="">
+                     <img src="../images/about-icon/Star 6.svg" alt="">
+                     <img src="../images/about-icon/Star 6.svg" alt="">
+                     <img src="../images/about-icon/Star 6.svg" alt="">
+                     <img src="../images/about-icon/Star 6.svg" alt="">
+                </div>
+            </div>
+      </div>
+      <div class="client_box">
+        <img src="../images/about-icon/ngoacnhon.svg" alt="">
+        <div class="client_vote">
+            <p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
+        </div>
+        <div class="client_info">
+            <div class="client_avatar">
+                 <img src="../images/about-icon/eleanor_pena.svg" alt="">
+            </div>
+            <div class="client_name">
+                 <h3 class="name"> Eleanor Pena <br><span class="cus">Customer</span> </h3>
+            </div>
+            <div class="star">
+                 <img src="../images/about-icon/Star 6.svg" alt="">
+                 <img src="../images/about-icon/Star 6.svg" alt="">
+                 <img src="../images/about-icon/Star 6.svg" alt="">
+                 <img src="../images/about-icon/Star 6.svg" alt="">
+                 <img src="../images/about-icon/Star 6.svg" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+   </div>
+</div>
+
+<div class="content-wrapper">
+    <div class="banner_p6">
+           <div class="body_branches">
+            <div class="branch">
+                <img src="../images/about-icon/stem.svg" alt="">
+            </div>
+            <div class="branch">
+                <img src="../images/about-icon/mango-1.png" alt="">
+            </div>
+            <div class="branch">
+                <img src="../images/about-icon/food.png" alt="">
+            </div>
+            <div class="branch">
+                <img src="../images/about-icon/food1.png" alt="">
+            </div>
+            <div class="branch">
+                <img src="../images/about-icon/book_off.png" alt="">
+            </div>
+            <div class="branch">
+                <img src="../images/about-icon/series.png" alt="">
+            </div>
+          </div>
+    </div>
+</div>
+
+
+    
+
+
+
+<footer>
+    <div class="footer-search">
+        <div class="big-sub">
+            <div class="sub">
+                <div class="sub-title">
+                    <div><h1 style="font-weight: bold;">Subcribe our Newsletter</h1></div>
+                    <div><p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna</p></div>
+                </div>
+                <div class="sub-button">
+                    <div class="btn-sub">
+                        <input type="text" class="input" placeholder="Your email address">
+                        <input type="submit" value="subcribse" class="btnsub">
+                    </div>
+                    <div class="sub-icon">
+                        <div class="the-icon">
+                            <a href="#"><img src="../images/social-icon/facebook.png" alt=""></a>
+                        </div>
+                        <div class="the-icon">
+                            <a href="#"><img src="../images/social-icon/twitter.png" alt=""></a>
+                        </div>
+                        <div class="the-icon">
+                            <a href="#"><img src="../images/social-icon/printest.png" alt=""></a>
+                        </div>
+                        <div class="the-icon">
+                            <a href="#"><img src="../images/social-icon/instagram-1.png" alt=""></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="big-footer">
+        <div class="footer">
+            <div class="foooter-nav1">
+                <div class="footer-title">
+                    <div class="icon-footer"><img src="../images/Group (3).png" alt=""></div>
+                    <div class="title-footer"><h1 style="font-weight: bold;">Ecobazar</h1></div>
+                </div>
+                <div class="content-footer"><p>Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p></div>
+                <div class="footer-phone">
+                    <div><p>(219) 555-0114</p></div>
+                    <div><p style="color: #999999;">or</p></div>
+                    <div><p>Proxy@gmail.com</p></div>
+                </div>
+            </div>
+            <div class="footer-nav21">
+                <div class="footer-nav2">
+                    <div><p><b>My Account</b></p><br>
+                    <a href=""><p>My Account</p></a><br>
+                    <a href=""><p>Order History</p></a><br>
+                    <a href=""><p>Shoping Cart</p></a><br>
+                    <a href=""><p>Wishlist</p></a><br>
+                    </div>
+                </div>
+                <div class="footer-nav2">
+                    <div><p><b>Helps</b></p><br>
+                    <a href=""><p>Contacts</p></a><br>
+                    <a href=""><p>Faqs</p></a><br>
+                    <a href=""><p>Terms & Condition</p></a><br>
+                    <a href=""><p>Privacy Policy</p></a><br>
+                    </div>
+                </div>
+                <div class="footer-nav2">
+                    <div><p><b>Proxy</b></p><br>
+                    <a href=""><p>About</p></a><br>
+                    <a href=""><p>Shop</p></a><br>
+                    <a href=""><p>Product</p></a><br>
+                    <a href=""><p>Track Order</p></a><br>
+                    </div>
+                </div>
+                <div class="footer-nav2">
+                    <div><p><b>Categories</b></p><br>
+                    <a href=""><p>Fruits & Vegetables</p></a><br>
+                    <a href=""><p>Meat & Fish</p></a><br>
+                    <a href=""><p>Bread & Bakery</p></a><br>
+                    <a href=""><p>Beauty & Health</p></a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="color:#A35DFE; opacity: 0.3;"> 
+        <div class="under-footer">
+            <div class="under-footer-content"><p style="color: gray;">Ecobazar eCommerce © 2021. All Rights Reserved</p></div>
+            <div class="under-icon">
+                <div><img src="../images/Method=ApplePay (1).png" alt=""></div>
+                <div><img src="../images/Method=Visa (1).png" alt=""></div>
+                <div><img src="../images/Method=Discover (1).png" alt=""></div>
+                <div><img src="../images/Cart (2).png" alt=""></div>
+            </div>
+        </div>
+    </div>
+</footer>
     </body>
     </html>

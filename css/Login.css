@@ -1,0 +1,165 @@
+
+
+ 
+
+ 
+
+
+
+.content_signin_password{
+    margin:0 auto;
+    border: 0px solid #faf6f6;
+    border-radius: 7px;
+    width: 36%;
+    height: 100%;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px  20px 20px rgba(232, 232, 232, 0.5) ; 
+    margin-top: 81px;  
+    padding-bottom: 3px; 
+}
+
+.input_content_password{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 20px;
+    padding-bottom:0px;
+    text-align: center;
+    background-color: white;
+}
+.alert_login{
+    margin-left: 25px;
+    color: red;
+    display: none;
+}
+.alert_login_email{
+    margin-left: 25px;
+    color: red;
+    display: none;
+}
+.input_password_content{
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 90px;
+    background-color: white;
+}
+.input_password_content:focus-visible{
+    outline: none;
+}
+/*email*/
+.input_password{
+    border: 1px solid #e5dede;
+    padding:7px 7px;
+    margin-bottom: -12px;
+    width: 90%;
+    height: 28px;
+    display: flex;
+    gap:240px;
+    border-radius: 6px;
+    color:#999999;
+}
+/*----la của passwword-----*/
+.input_signin_password{
+
+    border: 1px solid #e5dede;
+    padding:7px 7px;
+    margin-top: 10px;
+    width: 90%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.remember_password_content{
+   display: flex;
+   
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 35px;
+   
+}
+
+  input[type="checkbox"] {
+    /*transform: scaleX(2) scaleY(1,96); căn theo chiều ngang 2x avf chieu doc 1x*/
+    width: 19px;
+    height: 19px;
+    
+  }
+
+.remember_password_content label{
+    padding-top:2px;
+    height:4px;
+    weight:4px;
+}
+.remember_password_sigin{
+    display: flex;
+    gap:100px;
+    padding:10px 20px;
+    background-color: white;
+}
+.remember_forgot{
+    padding-left: 20px;
+    display:flex;
+    align-items: center;/*căn chiều dọc theo trục chính giữa */
+    gap:2px;
+    
+}
+
+.button_sigin_content{
+    border: 1px solid #a8a7a7;
+    background-color: #00B207;
+    border-radius: 40px;
+    width: 85%;
+    margin-top: 10px;
+    padding-top: 10px;
+    height: 34px;
+    text-align:center;
+    color: white;
+    margin-left: 30px;
+    
+}
+.button_sigin_content:hover{
+    cursor: pointer;
+    background-color: #a8a7a7;
+}
+
+.find_sigin{
+
+    display: flex;
+    font-size:14px;
+    padding-left: 20px;
+    text-align: center;
+    gap:2px;
+    margin-bottom: 10px;
+    
+}
+.find_sigin a{
+    color: #121111;
+    text-decoration: none;
+
+    
+}
+#eye img {
+   cursor: pointer;
+}
+@media(max-width:430px){
+    .container{
+        width: 50vw;
+        height: 70%;
+    }
+    .content_signin_password{
+        width:100%;
+        height:89%;
+        margin: 0 auto;
+       
+    }
+    .remember_forgot{
+        font-size: 10px;
+    }
+    .remember_forget{
+        font-size: 10px;
+    }
+ }
